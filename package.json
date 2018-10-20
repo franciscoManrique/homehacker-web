@@ -1,10 +1,10 @@
 {
   "name": "homehacker-web",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --aot",
-    "build": "ng build --output-path docs --prod --aot --optimization --base-href homehacker-web",
+    "build": "ng build --output-path=docs --prod --aot --optimization --base-href=\"/homehacker-web/\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
